@@ -85,59 +85,58 @@ This project presents the development of an **interactive and gamified Twitch ex
 
 *Add your architecture diagram in the `docs/` folder with the name `architecture.png`*
 
-### Microservices
+### Project Components & Progress
 
 The **StreamQuest** project is structured in microservices deployed on **Google Cloud Platform** with **Cloud Run**:
 
+#### Overall Status
+![Issues](https://img.shields.io/github/issues/projet-ccm2/achievement-management)
+![Pull Requests](https://img.shields.io/github/issues-pr/projet-ccm2/achievement-management)
+![Last Commit](https://img.shields.io/github/last-commit/projet-ccm2/achievement-management)
+
 #### 🔗 Core Services
-- **[twitch-event-listener](https://github.com/projet-ccm2/twitch-event-listener)**  
-  *Listens to real-time Twitch events* (chat messages, subscriptions, donations)
-
-- **[twitch-requester](https://github.com/projet-ccm2/twitch-requester)**  
-  *Twitch API interface* to retrieve streamer and viewer data
-
-- **[API](https://github.com/projet-ccm2/API)**  
-  *Central API Gateway* exposing RESTful endpoints for all clients
+| Service | Description | Issues | PRs | Status |
+|---------|-------------|--------|-----|--------|
+| [twitch-event-listener](https://github.com/projet-ccm2/twitch-event-listener) | *Listens to real-time Twitch events* (chat messages, subscriptions, donations) | ![Issues](https://img.shields.io/github/issues/projet-ccm2/twitch-event-listener) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/twitch-event-listener) | ![Status](https://img.shields.io/badge/status-active-green) |
+| [twitch-requester](https://github.com/projet-ccm2/twitch-requester) | *Twitch API interface* to retrieve streamer and viewer data | ![Issues](https://img.shields.io/github/issues/projet-ccm2/twitch-requester) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/twitch-requester) | ![Status](https://img.shields.io/badge/status-active-green) |
+| [API](https://github.com/projet-ccm2/API) | *Central API Gateway* exposing RESTful endpoints for all clients | ![Issues](https://img.shields.io/github/issues/projet-ccm2/API) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/API) | ![Status](https://img.shields.io/badge/status-active-green) |
 
 #### 🎯 Business Services
-- **[achievement-management](https://github.com/projet-ccm2/achievement-management)**  
-  *Achievement management*: creation, validation, attribution and progression
-
-- **[user-management](https://github.com/projet-ccm2/user-management)**  
-  *User management*: profiles, authentication, authorizations
-
-- **[notification-handler](https://github.com/projet-ccm2/notification-handler)**  
-  *Multi-channel notification system* (Twitch, Discord, mobile)
+| Service | Description | Issues | PRs | Status |
+|---------|-------------|--------|-----|--------|
+| [achievement-management](https://github.com/projet-ccm2/achievement-management) | *Achievement management*: creation, validation, attribution and progression | ![Issues](https://img.shields.io/github/issues/projet-ccm2/achievement-management) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/achievement-management) | ![Status](https://img.shields.io/badge/status-active-green) |
+| [user-management](https://github.com/projet-ccm2/user-management) | *User management*: profiles, authentication, authorizations | ![Issues](https://img.shields.io/github/issues/projet-ccm2/user-management) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/user-management) | ![Status](https://img.shields.io/badge/status-active-green) |
+| [notification-handler](https://github.com/projet-ccm2/notification-handler) | *Multi-channel notification system* (Twitch, Discord, mobile) | ![Issues](https://img.shields.io/github/issues/projet-ccm2/notification-handler) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/notification-handler) | ![Status](https://img.shields.io/badge/status-active-green) |
 
 #### 🤖 Support Services
-- **[IA-manager](https://github.com/projet-ccm2/IA-manager)**  
-  *Artificial Intelligence*: automatic achievement generation and behavioral analysis
-
-- **[DB-gateway](https://github.com/projet-ccm2/DB-gateway)**  
-  *Database gateway*: secure and consistent CRUD operations
-
-- **[bucket-manager](https://github.com/projet-ccm2/bucket-manager)**  
-  *File management*: image storage, configurations, static resources
+| Service | Description | Issues | PRs | Status |
+|---------|-------------|--------|-----|--------|
+| [IA-manager](https://github.com/projet-ccm2/IA-manager) | *Artificial Intelligence*: automatic achievement generation and behavioral analysis | ![Issues](https://img.shields.io/github/issues/projet-ccm2/IA-manager) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/IA-manager) | ![Status](https://img.shields.io/badge/status-active-green) |
+| [DB-gateway](https://github.com/projet-ccm2/DB-gateway) | *Database gateway*: secure and consistent CRUD operations | ![Issues](https://img.shields.io/github/issues/projet-ccm2/DB-gateway) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/DB-gateway) | ![Status](https://img.shields.io/badge/status-active-green) |
+| [bucket-manager](https://github.com/projet-ccm2/bucket-manager) | *File management*: image storage, configurations, static resources | ![Issues](https://img.shields.io/github/issues/projet-ccm2/bucket-manager) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/bucket-manager) | ![Status](https://img.shields.io/badge/status-active-green) |
 
 #### 🛠️ Infrastructure & DevOps
-- **[shared-workflows](https://github.com/projet-ccm2/shared-workflows)**  
-  *GitHub Actions workflows*: reusable CI/CD pipelines and automation scripts
-
-- **[terraformInfra](https://github.com/projet-ccm2/terraformInfra)**  
-  *Infrastructure as Code*: Terraform configurations for GCP deployment and resource management
+| Service | Description | Issues | PRs | Status |
+|---------|-------------|--------|-----|--------|
+| [shared-workflows](https://github.com/projet-ccm2/shared-workflows) | *GitHub Actions workflows*: reusable CI/CD pipelines and automation scripts | ![Issues](https://img.shields.io/github/issues/projet-ccm2/shared-workflows) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/shared-workflows) | ![Status](https://img.shields.io/badge/status-completed-brightgreen) |
+| [terraformInfra](https://github.com/projet-ccm2/terraformInfra) | *Infrastructure as Code*: Terraform configurations for GCP deployment and resource management | ![Issues](https://img.shields.io/github/issues/projet-ccm2/terraformInfra) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/terraformInfra) | ![Status](https://img.shields.io/badge/status-completed-brightgreen) |
 
 #### 🎨 Frontend & Applications
-- **[front](https://github.com/projet-ccm2/front)**  
-  *Frontend application*: web interface for streamers and viewers to manage achievements
-
-- **[bot-discord](https://github.com/projet-ccm2/bot-discord)**  
-  *Discord Bot*: automated notifications and community management integration
+| Service | Description | Issues | PRs | Status |
+|---------|-------------|--------|-----|--------|
+| [front](https://github.com/projet-ccm2/front) | *Frontend application*: web interface for streamers and viewers to manage achievements | ![Issues](https://img.shields.io/github/issues/projet-ccm2/front) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/front) | ![Status](https://img.shields.io/badge/status-active-green) |
+| [bot-discord](https://github.com/projet-ccm2/bot-discord) | *Discord Bot*: automated notifications and community management integration | ![Issues](https://img.shields.io/github/issues/projet-ccm2/bot-discord) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/bot-discord) | ![Status](https://img.shields.io/badge/status-active-green) |
 
 ### Data Diagram
 
 ```markdown
 # TODO: Data Diagram
 ```
+
+### Quick Links
+- 📋 [All Issues](https://github.com/orgs/projet-ccm2/issues)
+- 🔄 [All Pull Requests](https://github.com/orgs/projet-ccm2/pulls)
+- 📈 [Project Board](https://github.com/orgs/projet-ccm2/projects)
 
 ## 📋 Project Structure
 
