@@ -119,6 +119,20 @@ The **StreamQuest** project is structured in microservices deployed on **Google 
 - **[bucket-manager](https://github.com/projet-ccm2/bucket-manager)**  
   *File management*: image storage, configurations, static resources
 
+#### 🛠️ Infrastructure & DevOps
+- **[shared-workflows](https://github.com/projet-ccm2/shared-workflows)**  
+  *GitHub Actions workflows*: reusable CI/CD pipelines and automation scripts
+
+- **[terraformInfra](https://github.com/projet-ccm2/terraformInfra)**  
+  *Infrastructure as Code*: Terraform configurations for GCP deployment and resource management
+
+#### 🎨 Frontend & Applications
+- **[front](https://github.com/projet-ccm2/front)**  
+  *Frontend application*: web interface for streamers and viewers to manage achievements
+
+- **[bot-discord](https://github.com/projet-ccm2/bot-discord)**  
+  *Discord Bot*: automated notifications and community management integration
+
 ### Data Diagram
 
 ```markdown
