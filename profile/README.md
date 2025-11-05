@@ -81,7 +81,7 @@ This project presents the development of an **interactive and gamified Twitch ex
 
 ### Architecture Diagram
 
-![Architecture Diagram](./docs/architecture.png)
+![Architecture Diagram](../docs/architecture.png)
 
 *Add your architecture diagram in the `docs/` folder with the name `architecture.png`*
 

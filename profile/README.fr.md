@@ -81,7 +81,7 @@ Ce projet présente le développement d'une **extension Twitch interactive et ga
 
 ### Diagramme d'Architecture
 
-![Diagramme d'Architecture](./docs/architecture.png)
+![Diagramme d'Architecture](../docs/architecture.png)
 
 *Ajoutez votre diagramme d'architecture dans le dossier `docs/` avec le nom `architecture.png`*
 
