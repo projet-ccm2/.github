@@ -50,8 +50,9 @@ Ce projet présente le développement d'une **extension Twitch interactive et ga
 - **Cloud Run** pour l'orchestration de microservices serverless
 - CI/CD, monitoring, scalabilité automatique
 
-### Mobile Development
-- **Flutter** ou **React Native** pour l'application mobile
+### Développement Frontend
+- **React** pour l'application web
+- **Capacitor** pour l'application web mobile (iOS et Android)
 - Expérience multi-support (Twitch + Mobile + Discord)
 
 ### Intelligence Artificielle
@@ -124,14 +125,12 @@ Le projet **StreamQuest** est structuré en microservices déployés sur **Googl
 #### 🎨 Frontend & Applications
 | Service | Description | Issues | PRs | Statut |
 |---------|-------------|--------|-----|--------|
-| [front](https://github.com/projet-ccm2/front) | *Application frontend* : interface web pour streamers et viewers pour gérer les succès | ![Issues](https://img.shields.io/github/issues/projet-ccm2/front) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/front) | ![Status](https://img.shields.io/badge/statut-actif-green) |
+| [front](https://github.com/projet-ccm2/front) | *Application frontend* : interface web React pour streamers et viewers pour gérer les succès, avec Capacitor pour l'application web mobile | ![Issues](https://img.shields.io/github/issues/projet-ccm2/front) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/front) | ![Status](https://img.shields.io/badge/statut-actif-green) |
 | [bot-discord](https://github.com/projet-ccm2/bot-discord) | *Bot Discord* : notifications automatisées et intégration de gestion communautaire | ![Issues](https://img.shields.io/github/issues/projet-ccm2/bot-discord) | ![PRs](https://img.shields.io/github/issues-pr/projet-ccm2/bot-discord) | ![Status](https://img.shields.io/badge/statut-actif-green) |
 
 ### diagramme de donnée
 
-```markdown
-# TODO : diagramme de donnée
-```
+![Diagramme de données](../docs/data.png)
 
 ### Liens Rapides
 - 📋 [Toutes les Issues](https://github.com/orgs/projet-ccm2/issues)
